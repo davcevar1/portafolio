@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Aqui se incluyen los estilos del file Style.html con css/ bootstrap4 -->
+<%- include('partes/Style.html')%>
+
+  <!--Aqui terina el head  para hcaer el menu -->
+  <body>
+
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+      </div>
+    </div>
+
+
+    <div class="page">
+<!-- Todoo este codigo se encuentra en el menu nav.html embeded-->
+      <%- include('partes/nav.html') %>
+  <!--Prueba de que sirve el menu preprogramado-->
+
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/david2.jpg);"></span>David Cevallos</a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">Hola soy</a></p>
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">David Cevallos</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">Soy un desarrrollador web</a></p>
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Busco transformar la imaginacion en interacciones digitales.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- END slider -->
+
+      <section class="ftco-section about-section">
+        <div class="container">
+          <div class="row d-flex" data-scrollax-parent="true">
+            <div class="col-md-4 author-img" style="background-image: url(images/work-2.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6 wrap ftco-animate">
+              <div class="about-desc">
+                <h1 class="bold-text">Acerca de mi</h1>
+                <div class="p-5">
+                  <h2 class="mb-5">Hola! Soy David</h2>
+                  <p>Lo que busco es crear un sitio específico para ti, muchas veces nos encontramos con sitios web muy casuales hagámoslo diferente.</p>
+                  <p><a href="#">Mira más acerca de mi</a></p>
+                  <ul class="ftco-footer-social list-unstyled mt-4">
+                    <li><a href="https://twitter.com/?lang=es"><span class="icon-twitter"></span></a></li>
+                  <!--  <li><a href="https://www.facebook.com/davo.cev"><span class="icon-facebook"></span></a></li>-->
+                    <li><a href="https://www.instagram.com/davo150_d/"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/david-cevallos-966531183/"><span class="icon-instagram"></span></a></li>
+                  </ul>
+                  <h5>Contactame aquí</h5>
+                  <p>Email: <a href="#">dcevallosarmijos@gmail.com</a></p>
+                  <p>Telefono: <a href="#">(+593)99 148 5496</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Qué hago</span>
+              <h2>Mis servicios</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-layers"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Diseño interactivo UI/UX</h3>
+                  <h3 class="heading">Diseño de Apps </h3>
+                  <h3 class="heading">Diseño Responsive</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-gears"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Estrategia de producto</h3>
+                  <h3 class="heading">Desarrollo en Backend y Frontend</h3>
+                  <h3 class="heading">Lógica de UX</h3>
+                  <h3 class="heading">Desarrollo Fullstack</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="icon-code"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Lenguajes:</h3>
+                  <h3 class="heading">HTML/CSS/Php/Python</h3>
+                  <h3 class="heading">JavaScript/ C# </h3>
+                  <h3 class="heading">Base de datos:</h3>
+                  <h3 class="heading">Mysql,Django, Mongodb</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Proyectos</span>
+              <h2>Desarrollados</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/galaga2.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Desarrollo</h4>
+              <h2 class="heading"><a href="portfolio-single.html">Muchas veces los juegos ayudan a dearrrloar el arte de programación</a></h2>
+              <p>Cuando estos juegos son desarrollados, las personas no imaginan como es la logica que conlleva, por esto usamos lenguajes como JAVA y C#</p>
+
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/ui.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">UX</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Experiencia de Usuario </a></h2>
+              <p>Entender la experiencia de usuario nos ayudara a entender la arquitectura de lo que estamos desarrollando, todo esto hará más atractiva tu app o pagina web.</p>
+
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/desarrollo-web.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Web</h4>
+              <h2 class="heading"><a href="portfolio-single.html">El desarrollo web</a></h2>
+              <p>El desarrroollo web conciste en que las paginas tengan una linea visual llamativa donde la interaccion y usabilidad sean inmersivas para el usuario.</p>
+
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/ux.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Apps</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Construcción de Apps</a></h2>
+              <p>El Desarrollo de apps es lo mas innovador del momneto, por esto, es necesario entender como es el desarrollo de una app.</p>
+
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-5.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Fotografía</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Fotografía Profesional</a></h2>
+              <p>Todas las fotografias son retratos que cuentan muchas historias y guardan información detras de ellas, por esto, un buen concepto de fotografia llama la atención</p>
+
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </section>
+
+      <section class="ftco-section ftco-counter" id="section-counter">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Develop</span>
+              <h2>El desarrollo es arte</h2>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-start">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Clientes</span>
+                  <strong class="number" data-number="06">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Proyectos hechos</span>
+                  <strong class="number" data-number="88">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-end">
+            <div class="col-md-5 counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <span class="ftco-label">Tazas de caffé</span>
+                  <strong class="number" data-number="830">0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- Aqui va mi footer sumado a un loader -->
+    <%- include('partes/footer.html')%>
+
+      </div>
+
+    </div>
+<!--Scripts de funciones y apis-->
+<%- include('partes/scripts.html')%>
+
+  </body>
+</html>
